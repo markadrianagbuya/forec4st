@@ -1,6 +1,7 @@
 class CityForecastsController < ApplicationController
   def show
-    case params[:city].downcase
+    @city = params[:city].downcase
+    case @city
     when "sydney"
       response = HTTParty.get('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%3D1105779&format=json')
     when "melbourne"

@@ -9,6 +9,7 @@ RSpec.describe "CityForecasts", type: :request do
       get city_forecast_path("sydney")
 
       expect(response).to have_http_status(200)
+      expect(response.body).to include("Sydney")
       expect(response.body).to include("26.7°C")
     end
 
@@ -19,6 +20,7 @@ RSpec.describe "CityForecasts", type: :request do
       get city_forecast_path("melbourne")
 
       expect(response).to have_http_status(200)
+      expect(response.body).to include("Melbourne")
       expect(response.body).to include("18.3°C")
     end
 
