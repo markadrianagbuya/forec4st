@@ -11,8 +11,8 @@ class CityForecastsController < ApplicationController
       response = YahooWeather.new.weather_for_melbourne
     end
 
-    daily_forecast_json_objects = response["query"]["results"]["channel"]["item"]["forecast"]
-    @daily_forecasts = daily_forecast_json_objects.first(3).map do |forecast| 
+    day_forecast_json_objects = response["query"]["results"]["channel"]["item"]["forecast"]
+    @day_forecasts = day_forecast_json_objects.first(3).map do |forecast| 
       DayForecast.create!(
         forecasted_at: Time.parse(response["query"]["created"]),
         forecast_date: forecast["date"],
