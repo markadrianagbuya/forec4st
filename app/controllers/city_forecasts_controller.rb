@@ -12,7 +12,7 @@ class CityForecastsController < ApplicationController
     end
 
     day_forecast_json_objects = response["query"]["results"]["channel"]["item"]["forecast"]
-    @day_forecasts = day_forecast_json_objects.first(3).map do |forecast| 
+    @day_forecasts = day_forecast_json_objects.first(4).map do |forecast| 
       DayForecast.create!(
         forecasted_at: Time.parse(response["query"]["created"]),
         forecast_date: forecast["date"],

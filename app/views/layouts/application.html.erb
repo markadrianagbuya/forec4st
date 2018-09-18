@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WeatherApp</title>
+    <title>Mark's Weather App</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="wrapper">
+      <nav class="navigation">
+        <div class="container">
+          <%= link_to root_path, class: "navigation-title" do %>
+            <h1 class="title">FOREC4ST</h1>
+          <% end %>
+
+          <div class="navigation-links float-right">
+            <%= link_to "Sydney", city_forecast_path("sydney"), class: "button navigation-link" %>
+            <%= link_to "Melbourne", city_forecast_path("melbourne"), class: "button navigation-link" %>
+          </div>
+        </div>
+      </nav>
+      <%= yield %>
+    </div>
   </body>
 </html>

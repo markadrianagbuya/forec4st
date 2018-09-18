@@ -1,3 +1,11 @@
-<h1>Weather#index</h1>
-<%= link_to "View Sydney Weather Forecast", city_forecast_path("sydney") %>
-<%= link_to "View Melbourne Weather Forecast", city_forecast_path("melbourne") %>
+<section class="weather-splash">
+  <div class="container splash-cta">
+    <h2>Choose a City to view the Weather Forecast</h2>
+    <%= link_to "Sydney", city_forecast_path("sydney"), class: "button button-large" %>
+    <%= link_to "Melbourne", city_forecast_path("melbourne"), class: "button button-large" %>
+  </div>
+
+</section>
+<div class="container">
+  <p class="float-right">Photo by Alex Wise on Unsplash</p>
+</div>

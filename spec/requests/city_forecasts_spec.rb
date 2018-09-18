@@ -9,7 +9,7 @@ RSpec.describe "CityForecasts", type: :request do
 
       expect do
         get city_forecast_path("sydney")
-      end.to change(DayForecast, :count).by(3)
+      end.to change(DayForecast, :count).by(4)
 
       expect(response).to have_http_status(200)
       expect(response.body).to include("Sydney")

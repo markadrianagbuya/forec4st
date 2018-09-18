@@ -1,12 +1,19 @@
-<h1><%= @city.titleize %></h1>
-<ul>
-  <%- @day_forecasts.each do |day_forecast| %>
-    <li>Date: <%= day_forecast.forecast_date.strftime('%d %b %Y') %>
-      <ul>
-        <li><%= day_forecast.description %></li>
-        <li>High: <%= day_forecast.high %>°C</li>
-        <li>Low: <%= day_forecast.low %>°C</li>
-      </ul>
-    </li>
-  <%- end %>
-</ul>
+<div class="container">
+  <h2><%= @city.titleize %></h1>
+</section>
+
+<div class="container">
+  <div class="row">
+    <%- @day_forecasts.each do |day_forecast| %>
+      <div class="column">
+        <h3><%= day_forecast.forecast_date.strftime('%d %b %Y') %></h3>
+
+        <ul>
+          <li><%= day_forecast.description %></li>
+          <li>High: <%= day_forecast.high %>°C</li>
+          <li>Low: <%= day_forecast.low %>°C</li>
+        </ul>
+      </div>
+    <%- end %>
+  </div>
+</section>
