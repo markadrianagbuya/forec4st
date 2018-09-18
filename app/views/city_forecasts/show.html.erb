@@ -1,11 +1,11 @@
 <h1><%= @city.titleize %></h1>
 <ul>
   <%- @daily_forecasts.each do |daily_forecast| %>
-    <li>Date: <%= daily_forecast.date %>
+    <li>Date: <%= daily_forecast.forecast_date.strftime('%d %b %Y') %>
       <ul>
         <li><%= daily_forecast.description %></li>
-        <li>High: <%= daily_forecast.high.round(1) %>°C</li>
-        <li>Low: <%= daily_forecast.low.round(1) %>°C</li>
+        <li>High: <%= daily_forecast.high %>°C</li>
+        <li>Low: <%= daily_forecast.low %>°C</li>
       </ul>
     </li>
   <%- end %>
