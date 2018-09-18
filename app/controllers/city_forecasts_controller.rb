@@ -1,3 +1,8 @@
+require 'yahoo_weather'
+require 'temperature'
+
+DailyForecast = Struct.new(:date, :high, :low, :description)
+
 class CityForecastsController < ApplicationController
   def show
     @city = params[:city].downcase
@@ -8,7 +13,14 @@ class CityForecastsController < ApplicationController
       response = YahooWeather.new.weather_for_melbourne
     end
 
-    temperature_in_fahrenheit = response["query"]["results"]["channel"]["item"]["forecast"].first["high"].to_d
-    @temperature = Temperature.fahrenheit_to_celsius(temperature_in_fahrenheit)
+    daily_forecast_json_objects = response["query"]["results"]["channel"]["item"]["forecast"]
+    @daily_forecasts = daily_forecast_json_objects.first(3).map do |forecast| 
+      DailyForecast.new(
+        forecast["date"],
+        Temperature.fahrenheit_to_celsius(forecast["high"]),
+        Temperature.fahrenheit_to_celsius(forecast["low"]),
+        forecast["text"]
+      )
+    end
   end
 end
