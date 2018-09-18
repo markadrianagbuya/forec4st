@@ -1,0 +1,149 @@
+{
+   "query":{
+      "count":1,
+      "created":"2018-09-18T13:02:18Z",
+      "lang":"en-US",
+      "results":{
+         "channel":{
+            "units":{
+               "distance":"mi",
+               "pressure":"in",
+               "speed":"mph",
+               "temperature":"F"
+            },
+            "title":"Yahoo! Weather - Melbourne, VIC, AU",
+            "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1103816/",
+            "description":"Yahoo! Weather for Melbourne, VIC, AU",
+            "language":"en-us",
+            "lastBuildDate":"Tue, 18 Sep 2018 11:02 PM AEST",
+            "ttl":"60",
+            "location":{
+               "city":"Melbourne",
+               "country":"Australia",
+               "region":" VIC"
+            },
+            "wind":{
+               "chill":"48",
+               "direction":"338",
+               "speed":"11"
+            },
+            "atmosphere":{
+               "humidity":"84",
+               "pressure":"1006.0",
+               "rising":"0",
+               "visibility":"16.1"
+            },
+            "astronomy":{
+               "sunrise":"6:15 am",
+               "sunset":"6:13 pm"
+            },
+            "image":{
+               "title":"Yahoo! Weather",
+               "width":"142",
+               "height":"18",
+               "link":"http://weather.yahoo.com",
+               "url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+            },
+            "item":{
+               "title":"Conditions for Melbourne, VIC, AU at 10:00 PM AEST",
+               "lat":"-37.865799",
+               "long":"145.102829",
+               "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1103816/",
+               "pubDate":"Tue, 18 Sep 2018 10:00 PM AEST",
+               "condition":{
+                  "code":"27",
+                  "date":"Tue, 18 Sep 2018 10:00 PM AEST",
+                  "temp":"50",
+                  "text":"Mostly Cloudy"
+               },
+               "forecast":[
+                  {
+                     "code":"30",
+                     "date":"18 Sep 2018",
+                     "day":"Tue",
+                     "high":"65",
+                     "low":"50",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"30",
+                     "date":"19 Sep 2018",
+                     "day":"Wed",
+                     "high":"55",
+                     "low":"43",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"34",
+                     "date":"20 Sep 2018",
+                     "day":"Thu",
+                     "high":"58",
+                     "low":"38",
+                     "text":"Mostly Sunny"
+                  },
+                  {
+                     "code":"30",
+                     "date":"21 Sep 2018",
+                     "day":"Fri",
+                     "high":"64",
+                     "low":"42",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"30",
+                     "date":"22 Sep 2018",
+                     "day":"Sat",
+                     "high":"68",
+                     "low":"45",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"28",
+                     "date":"23 Sep 2018",
+                     "day":"Sun",
+                     "high":"52",
+                     "low":"45",
+                     "text":"Mostly Cloudy"
+                  },
+                  {
+                     "code":"30",
+                     "date":"24 Sep 2018",
+                     "day":"Mon",
+                     "high":"54",
+                     "low":"42",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"34",
+                     "date":"25 Sep 2018",
+                     "day":"Tue",
+                     "high":"55",
+                     "low":"37",
+                     "text":"Mostly Sunny"
+                  },
+                  {
+                     "code":"28",
+                     "date":"26 Sep 2018",
+                     "day":"Wed",
+                     "high":"62",
+                     "low":"38",
+                     "text":"Mostly Cloudy"
+                  },
+                  {
+                     "code":"26",
+                     "date":"27 Sep 2018",
+                     "day":"Thu",
+                     "high":"66",
+                     "low":"54",
+                     "text":"Cloudy"
+                  }
+               ],
+               "description":"<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/27.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Mostly Cloudy\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Tue - Partly Cloudy. High: 65Low: 50\n<BR /> Wed - Partly Cloudy. High: 55Low: 43\n<BR /> Thu - Mostly Sunny. High: 58Low: 38\n<BR /> Fri - Partly Cloudy. High: 64Low: 42\n<BR /> Sat - Partly Cloudy. High: 68Low: 45\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1103816/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+               "guid":{
+                  "isPermaLink":"false"
+               }
+            }
+         }
+      }
+   }
+}
