@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2018_09_18_163505) do
   enable_extension "plpgsql"
 
   create_table "day_forecasts", force: :cascade do |t|
-    t.time "forecasted_at"
+    t.datetime "forecasted_at"
     t.date "forecast_date"
     t.string "city"
     t.float "high"
