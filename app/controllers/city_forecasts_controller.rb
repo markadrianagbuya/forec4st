@@ -9,6 +9,6 @@ class CityForecastsController < ApplicationController
     end
 
     temperature_in_fahrenheit = response["query"]["results"]["channel"]["item"]["forecast"].first["high"].to_d
-    @temperature = (temperature_in_fahrenheit - 32.to_d) / 1.8.to_d
+    @temperature = Temperature.fahrenheit_to_celsius(temperature_in_fahrenheit)
   end
 end
