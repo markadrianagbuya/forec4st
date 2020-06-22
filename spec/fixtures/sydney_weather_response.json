@@ -1,0 +1,149 @@
+{
+  "query":{
+    "count":1,
+    "created":"2018-09-18T10:44:35Z",
+    "lang":"en-US",
+    "results":{
+      "channel":{
+        "units":{
+          "distance":"mi",
+          "pressure":"in",
+          "speed":"mph",
+          "temperature":"F"
+        },
+        "title":"Yahoo! Weather - Sydney, NSW, AU",
+        "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1105779/",
+        "description":"Yahoo! Weather for Sydney, NSW, AU",
+        "language":"en-us",
+        "lastBuildDate":"Tue, 18 Sep 2018 08:44 PM AEST",
+        "ttl":"60",
+        "location":{
+          "city":"Sydney",
+          "country":"Australia",
+          "region":" NSW"
+        },
+        "wind":{
+          "chill":"63",
+          "direction":"23",
+          "speed":"11"
+        },
+        "atmosphere":{
+          "humidity":"53",
+          "pressure":"1008.0",
+          "rising":"0",
+          "visibility":"16.1"
+        },
+        "astronomy":{
+          "sunrise":"5:51 am",
+          "sunset":"5:50 pm"
+        },
+        "image":{
+          "title":"Yahoo! Weather",
+          "width":"142",
+          "height":"18",
+          "link":"http://weather.yahoo.com",
+          "url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+        },
+        "item":{
+          "title":"Conditions for Sydney, NSW, AU at 08:00 PM AEST",
+          "lat":"-33.856281",
+          "long":"151.020966",
+          "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1105779/",
+          "pubDate":"Tue, 18 Sep 2018 08:00 PM AEST",
+          "condition":{
+            "code":"31",
+            "date":"Tue, 18 Sep 2018 08:00 PM AEST",
+            "temp":"62",
+            "text":"Clear"
+          },
+          "forecast":[
+            {
+              "code":"32",
+              "date":"18 Sep 2018",
+              "day":"Tue",
+              "high":"80",
+              "low":"45",
+              "text":"Sunny"
+            },
+            {
+              "code":"32",
+              "date":"19 Sep 2018",
+              "day":"Wed",
+              "high":"81",
+              "low":"51",
+              "text":"Sunny"
+            },
+            {
+              "code":"12",
+              "date":"20 Sep 2018",
+              "day":"Thu",
+              "high":"61",
+              "low":"46",
+              "text":"Rain"
+            },
+            {
+              "code":"32",
+              "date":"21 Sep 2018",
+              "day":"Fri",
+              "high":"69",
+              "low":"42",
+              "text":"Sunny"
+            },
+            {
+              "code":"34",
+              "date":"22 Sep 2018",
+              "day":"Sat",
+              "high":"78",
+              "low":"43",
+              "text":"Mostly Sunny"
+            },
+            {
+              "code":"28",
+              "date":"23 Sep 2018",
+              "day":"Sun",
+              "high":"69",
+              "low":"46",
+              "text":"Mostly Cloudy"
+            },
+            {
+              "code":"30",
+              "date":"24 Sep 2018",
+              "day":"Mon",
+              "high":"56",
+              "low":"45",
+              "text":"Partly Cloudy"
+            },
+            {
+              "code":"34",
+              "date":"25 Sep 2018",
+              "day":"Tue",
+              "high":"60",
+              "low":"43",
+              "text":"Mostly Sunny"
+            },
+            {
+              "code":"30",
+              "date":"26 Sep 2018",
+              "day":"Wed",
+              "high":"58",
+              "low":"46",
+              "text":"Partly Cloudy"
+            },
+            {
+              "code":"30",
+              "date":"27 Sep 2018",
+              "day":"Thu",
+              "high":"64",
+              "low":"44",
+              "text":"Partly Cloudy"
+            }
+          ],
+          "description":"<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/31.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Clear\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Tue - Sunny. High: 80Low: 45\n<BR /> Wed - Sunny. High: 81Low: 51\n<BR /> Thu - Rain. High: 61Low: 46\n<BR /> Fri - Sunny. High: 69Low: 42\n<BR /> Sat - Mostly Sunny. High: 78Low: 43\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1105779/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+          "guid":{
+            "isPermaLink":"false"
+          }
+        }
+      }
+    }
+  }
+}

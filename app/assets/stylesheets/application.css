@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+.navigation-title, .title, .navigation-links {
+  display: inline;
+  line-height: 5.2rem;
+}
+
+.navigation {
+  background: #f4f5f6;
+  border-bottom: .1rem solid #d1d1d1;
+}
+
+.title {
+  font-size: 1.8rem;
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 92rem;
+}
+
+.wrapper > section.container {
+  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
+}
+
+.button-large {
+  font-size: 1.4rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  padding: 0 2rem;
+}

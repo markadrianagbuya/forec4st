@@ -1,0 +1,2 @@
+class DayForecast < ApplicationRecord
+end

@@ -1,0 +1,19 @@
+<div class="container">
+  <h2><%= @city_forecast.title %></h1>
+</section>
+
+<div class="container">
+  <div class="row">
+    <%- @city_forecast.day_forecasts.each do |day_forecast| %>
+      <div class="column">
+        <h3><%= day_forecast.forecast_date.strftime('%d %b %Y') %></h3>
+
+        <ul>
+          <li><%= day_forecast.description %></li>
+          <li>High: <%= day_forecast.high %>°C</li>
+          <li>Low: <%= day_forecast.low %>°C</li>
+        </ul>
+      </div>
+    <%- end %>
+  </div>
+</section>
